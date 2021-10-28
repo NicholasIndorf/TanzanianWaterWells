@@ -1,6 +1,7 @@
 # Data files
 # data/
 data/
+notebooks/Alex/GIS/GISdata
 
 # For macs
 .DS_store
