@@ -19,8 +19,7 @@ While the country of Tanzania has abundant water resources including Lake Victor
 
 ## Data Understanding
 
-We used the a dataset compiled by the [Ministry of Water](https://www.maji.go.tz/) and [TAARIFA](https://taarifa.org/) and available at [DataDriven.org](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/).  The dataset describes over 59,000 waterpoints and includes features for each point such as location, water quality, funding agency, etc. The majority of the dataset's 40 features contain categorical data while only 10 contained numeric data.  
-
+We used the a dataset compiled by the [Ministry of Water](https://www.maji.go.tz/) and [TAARIFA](https://taarifa.org/) and available at [DataDriven.org](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/).  The dataset describes over 59,000 waterpoints and includes features for each point such as location, water quality, funding agency, etc. The majority of the dataset's 40 features contain categorical data while only 10 contained numeric data. 
 
 ## Modeling
 
@@ -33,11 +32,15 @@ After creating a baseline model using DummyClassifier with poor results we creat
 
 ## Evaluation
 
-After iterating through numerous models we found that a voting classifier that used a combination of Adaboost and Random Forest estimators produced not only the highest accuracy score, 82.7%, but also maintained high precision and recall values, 83.4% and 77.3% respectively, unlike other models where an increase in accuracy was often accompanied by a drip in either or both of those metrics.  Given the large amount of categorical data in our model the success of the Random Forest estimator was not surprising, and the model was further improved by Adaboost's ability to enhance the performance of decision tree based estimators.  
+After iterating through numerous models we found that a voting classifier that used a combination of Adaboost and Random Forest estimators produced not only the highest accuracy score, 82.7%, but also maintained high precision and recall values, 83.4% and 77.3% respectively, unlike other models where an increase in accuracy was often accompanied by a drip in either or both of those metrics.  Given the large amount of categorical data in our model the success of the Random Forest estimator was not surprising, and the model was further improved by Adaboost's ability to enhance the performance of decision tree based estimators. 
+
+## Conclusion
+
+As our final composite classifier performed so well on the holdout data, we are highly confident that our model is generalizable to unseen data and would be an effective tool for the government of Tanzania.
 
 ## Next Steps
 
-Moving forward we would like to perform the following actions to improve the data quality and therefore our model's accuracy:
+However, it is worth noting that this model can only do so much with the data it received. If the Tanzanian government wished to improve their predictive capabilities, we would recommend they revisit their data collection methods, as more robust descriptors and information would lead to a more robust predictive model. Moving forward we would like to perform the following actions to improve the data quality and therefore our model's accuracy:
 
 **Revise data collection processes** - Currently a large amount of redundant data is being collected on the waterpoints. By refining the data collection process we can obtain better quality (and less confusing) data as well as reduce the amount of time needed by those collecting the data to perform their job. 
 
