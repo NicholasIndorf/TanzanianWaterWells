@@ -33,11 +33,7 @@ After creating a baseline model using DummyClassifier with poor results we creat
 
 ## Evaluation
 
-After iterating through numerous models we found that a voting classifier that used a combination of Adaboost and Random Forest estimators produced not only the highest accuracy score, but also maintained high precision and recall values, unlike other models where an increase in accuracy was often accompanied by a drip in either or both of those metrics.  Given the large amount of categorical data in our model the success of the Random Forest estimator was not surprising, and the model was further improved by Adaboost's ability to enhance the performance of decision tree based estimators.  
-
-
-## Conclusion 
-
+After iterating through numerous models we found that a voting classifier that used a combination of Adaboost and Random Forest estimators produced not only the highest accuracy score, 82.7%, but also maintained high precision and recall values, 83.4% and 77.3% respectively, unlike other models where an increase in accuracy was often accompanied by a drip in either or both of those metrics.  Given the large amount of categorical data in our model the success of the Random Forest estimator was not surprising, and the model was further improved by Adaboost's ability to enhance the performance of decision tree based estimators.  
 
 ## Next Steps
 
@@ -49,6 +45,9 @@ Moving forward we would like to perform the following actions to improve the dat
 
 **Expand number of classifiers in model** - Expand the model from a binary classifier to a trinary classifier so in addition to identifying "functioning" and "non functioning" waterpoints it can also identfy waterpoints that are functioning but need repair. 
 
+## For More Information
+
+See the full analysis in the [Jupyter Data Cleaning Notebook](./Data_Cleaning_Final.ipynb) and the [Jupyter Modeling Notebook](./Modeling_Final.ipynb) or review this [presentation](./Water_Wells_Presentation.pdf).
 
 ## Repository Structure
 
