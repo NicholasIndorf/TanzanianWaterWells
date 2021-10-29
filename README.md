@@ -14,7 +14,6 @@ While the country of Tanzania has abundant water resources including Lake Victor
 <p align="center">
   <img src="images/Tanzania_pumps.png"/>
 </p>
-*locations of Tanzanian waterpoints*
 
 ## Data Understanding
 
