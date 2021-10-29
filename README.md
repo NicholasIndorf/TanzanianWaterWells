@@ -31,8 +31,9 @@ After creating a baseline model using DummyClassifier with poor results we creat
 *sample of evaluate function output*
 
 
-
 ## Evaluation
+
+After iterating through numerous models we found that a voting classifier that used a combination of adaboost and random forest estimators produced not only the highest accuracy score, but also maintained high precision and recall values, unlike other models where an increase in accuracy was often accompanied by a drip in either or both of those metrics.  Given the large amount of categorical data in our model the success of the random forest estimator was not surprising, and the model was further improved by adaboost's ability to enhance the perfomance of decision tree based estimators.  
 
 
 ## Conclusion 
