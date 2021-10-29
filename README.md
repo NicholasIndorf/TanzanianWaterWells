@@ -33,7 +33,7 @@ After creating a baseline model using DummyClassifier with poor results we creat
 
 ## Evaluation
 
-After iterating through numerous models we found that a voting classifier that used a combination of adaboost and random forest estimators produced not only the highest accuracy score, but also maintained high precision and recall values, unlike other models where an increase in accuracy was often accompanied by a drip in either or both of those metrics.  Given the large amount of categorical data in our model the success of the random forest estimator was not surprising, and the model was further improved by adaboost's ability to enhance the perfomance of decision tree based estimators.  
+After iterating through numerous models we found that a voting classifier that used a combination of Adaboost and Random Forest estimators produced not only the highest accuracy score, but also maintained high precision and recall values, unlike other models where an increase in accuracy was often accompanied by a drip in either or both of those metrics.  Given the large amount of categorical data in our model the success of the Random Forest estimator was not surprising, and the model was further improved by Adaboost's ability to enhance the perfomance of decision tree based estimators.  
 
 
 ## Conclusion 
@@ -45,7 +45,7 @@ Moving forward we would like to perform the following actions to improve the dat
 
 **Revise data collection processes** - Currently a large amount of redundant data is being collected on the waterpoints. By refining the data collection process we can obtain better quality (and less confusing) data as well as reduce the amount of time needed by those collecting the data to perform their job. 
 
-**Integrate external geodata** - The current data set has some values that do not need to be collected in the field as they can be gained via GIS processnig as we have the longitude and latitude for each waterpoint.  For example the dataset includes a feature describing the altitude of the waterpoint - this is easily determined by ploting the locations of the waterpoints against a topographic map.  Leveraging this external data, much of which is in the public domain, further streamlines the data collection process for each waterpoint and increases the accuracy of the dataset's features.
+**Integrate external geodata** - The current data set has some values that do not need to be collected in the field as they can be gained via GIS processing as we have the longitude and latitude for each waterpoint. Leveraging this external data, much of which is in the public domain, further streamlines the data collection process for each waterpoint and increases the accuracy of the dataset's features.
 
 **Expand number of classifiers in model** - Expand the model from a binary classifier to a trinary classifier so in addition to identifying "functioning" and "non functioning" waterpoints it can also identfy waterpoints that are functioning but need repair. 
 
