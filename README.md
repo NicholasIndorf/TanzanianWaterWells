@@ -25,7 +25,8 @@ We used the a dataset compiled by the [Ministry of Water](https://www.maji.go.tz
 After creating a baseline model using DummyClassifier with poor results we created additional, simple, Logistic Regression and Decision Tree models. Preprocessing steps were integrated into the modeling process by use of Pipelines, and models scoring was analyzed to determine next steps via use of a bespoke evaluate function. 
 
 ![sample evaluate function output](images/Evaluate_example.JPG)
-*sample of evaluate function out*
+
+*sample of evaluate function output*
 
 
 
