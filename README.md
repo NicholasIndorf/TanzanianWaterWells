@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project analyses the functionality status of 59,000 waterpoints overseen by the Tanzanian Ministry of Water to develop a binary classification  model to predict their status. The Ministry of Water will use to identify what waterpoints are non-functional and in need of repair. 
+This project analyses the functionality status of 59,000 waterpoints overseen by the Tanzanian Ministry of Water to develop a binary classification  model to predict said status. The Ministry of Water will use to identify what waterpoints are non-functional and in need of repair. 
 
 
 ## Business Understanding 
