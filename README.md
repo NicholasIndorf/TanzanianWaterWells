@@ -60,8 +60,9 @@ See the full analysis in the [Jupyter Data Cleaning Notebook](./Data_Cleaning_Fi
 │   └── Nick    
 ├── .gitignore
 ├── README.md
-├── Presentation.pdf
-└── Notebook.ipynb
+├── Data_Cleaning_Final.ipynb
+├── Modeling_Final.ipynb
+└── Water_Wells_Presentation.pdf
 ```
 
 
