@@ -11,7 +11,9 @@ This project analyses the functionality status of 59,000 waterpoints overseen by
 
 While the country of Tanzania has abundant water resources including Lake Victoria, the largest lake in Africa, nearly 50% of the waterpoints overseen by the Ministry of Water are non-functional, leaving large segments of the population without a reliable or potable source of water. The Ministry will use the model to allocate repair resources so that they can be effectively deployed, increasing the number of Tanzanians with access to potable water. The model needed to take into consideration the fact that if wells were incorrectly identified as being functional then communities would be left without water, and conversely if the model identified working wells as broken the Ministry would not be able to allocate their resources effectively.
 
-![](images/Tanzania_pumps.png)
+<p align="center">
+  <img src="images/Tanzania_pumps.png"/>
+</p>
 *locations of Tanzanian waterpoints*
 
 ## Data Understanding
