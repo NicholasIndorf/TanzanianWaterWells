@@ -49,6 +49,9 @@ Moving forward we would like to perform the following actions to improve the dat
 
 See the full analysis in the [Jupyter Data Cleaning Notebook](./Data_Cleaning_Final.ipynb) and the [Jupyter Modeling Notebook](./Modeling_Final.ipynb) or review this [presentation](./Water_Wells_Presentation.pdf).
 
+Any questions about the model can be sent to Questions@TIGERLLC.tv
+![TIGER LLC](images/tigerlogo.png)
+
 ## Repository Structure
 
 ```
